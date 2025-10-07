@@ -1,0 +1,11 @@
+prompts_usados = """
+# Prompts Usados para Criar o eBook
+
+1. "Preciso criar um ebook sobre um justiceiro (comicamente parecido com o batman) lutando contra o crime na Cidade de Deus."
+2. "Em uma noite, ele estava escondido no escuro de uma viela, quando viu uma patrulha policial matando friamente um jovem de apenas 11 anos por acharem que ele fazia parte do crime organizado."
+3. "No final ele percebe que todo trabalho que ele fez não resultou em nada porque o crime de verdade não está nas favelas e sim na burguesia que comanda o país."
+4. "Público alvo: nerds. Estilo: sombrio, mas com um toque de brasilidade."
+"""
+
+with open("prompts-usados.md", "w", encoding="utf-8") as f:
+    f.write(prompts_usados)
